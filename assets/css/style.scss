@@ -339,7 +339,6 @@
     background: -webkit-gradient(linear, left top, right top, from(#d5e3ed), to(#b5cbe2));
     background: -webkit-linear-gradient(left, #d5e3ed, #b5cbe2);
     background: linear-gradient(90deg, #d5e3ed, #bfbedf);
-    padding-top: 30px;
     padding-bottom: 55px;
     position: relative;
 
@@ -472,6 +471,7 @@
     &__checkbox {
       display: block;
       max-width: 100%;
+      width: 48px;
     }
     &__checkbox-item {
       display: flex;
@@ -489,7 +489,7 @@
       padding-right: 10px;
       padding-left: 5px;
       background: #fff;
-      height: 68px;
+      height: 48px;
     }
     &__label {
       margin-top: 20px;
@@ -1018,7 +1018,7 @@
 
       &__pack-img {
         display: block;
-        max-width: 80%;
+        max-width: 73%;
         margin: 0 auto;
       }
     }
